@@ -9,7 +9,6 @@ import { Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home";
 
-import People from "./pages/PeoplePage";
 
 import RequestConnect from "./pages/RequestConnect";
 import PeoplePage from './pages/PeoplePage';
@@ -71,7 +70,7 @@ useEffect(() => {
 
           <Route path="/people" element={<PeoplePage users={users} />} />
 
-          <Route path="/connect" element={<RequestConnect/>} />
+          <Route path="/request" element={<RequestConnect/>} />
 
         </Routes>
 

@@ -42,10 +42,10 @@ input[type="number"]:focus {
 }
 .grid-container{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: auto auto auto;
   gap: 10px;
 }
-.home {
+body {
   background: url(../src/images/img8.jpg);
   height: 100vh;
   width: 100%;
@@ -55,6 +55,13 @@ input[type="number"]:focus {
   justify-content: space-between;
   border-radius: 15px;
   background-color: #cccccc5b;
+  border: 1px solid black;
+}
+.form_input{
+  align-items: center;
+}
+.works{
+  margin-top: 130px;
 }
 
 

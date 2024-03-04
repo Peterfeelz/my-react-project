@@ -86,34 +86,34 @@ const RequestConnect = () => {
 
          
 
+        <div classname='form_input'>
         <label htmlFor="name">Name: </label>
-
         <input onChange={(e)=>{handleChange(e)}} name="name" type= "text" placeholder= "Input your name" id= "name" /><br/><br/>
-
+        </div>
  
-
+       <div classname='form_input'>
         <label htmlFor="email">Email: </label>
 
         <input onChange={(e)=>{handleChange(e)}} name="email" type= "email" placeholder= "Input your email" id= "email" /><br/><br/>
-
+          </div>
  
-
+          <div classname='form_input'>
           <label htmlFor="age">Age: </label>
 
           <input onChange={(e)=>{handleChange(e)}} name="age" type= "number" placeholder= "Input your age" id= "age" /><br/><br/>
-
+         </div>
  
-
+         <div classname='form_input'>
           <label htmlFor="number">Number: </label>
 
           <input onChange={(e)=>{handleChange(e)}} name="number" type= "text" placeholder= "Input your phone number" id= "number" /><br/><br/>
-
+          </div>
  
-
+          <div classname='form_input'>
           <label htmlFor="interest">Interest: </label>
 
           <input onChange={(e)=>{handleChange(e)}} name="interest" type= "text" placeholder= "What are your interests" id= "interest" /><br/><br/>
-
+           </div>
  
 
           <button type="submit">Submit</button>
